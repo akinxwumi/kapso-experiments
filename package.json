@@ -1,0 +1,25 @@
+{
+  "name": "kapso-wrappers",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "tsc -b packages/auth packages/payments packages/agents packages/workflows",
+    "build:auth": "tsc -b packages/auth",
+    "build:payments": "tsc -b packages/payments",
+    "build:agents": "tsc -b packages/agents",
+    "build:workflows": "tsc -b packages/workflows",
+    "demo:auth": "tsx examples/auth-demo/index.ts",
+    "demo:payments": "tsx examples/payment-demo/index.ts",
+    "demo:agents": "tsx examples/agent-demo/index.ts",
+    "demo:workflows": "tsx examples/workflow-demo/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}

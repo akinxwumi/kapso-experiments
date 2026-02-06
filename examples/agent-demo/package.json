@@ -1,0 +1,17 @@
+{
+  "name": "agent-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx -r dotenv/config index.ts dotenv_config_path=../.env"
+  },
+  "dependencies": {
+    "@kapso/agents": "file:../../packages/agents",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0"
+  }
+}
