@@ -32,4 +32,4 @@ So, I implemented some of these primitives as wrappers to the Kapso TypeScript S
 | [@kapso/workflows](packages/workflows/README.md) | Event-driven WhatsApp workflows via Make.com webhooks (PoC for automation layer). | [workflow-demo](examples/workflow-demo/README.md) |
 | [@kapso/agents](packages/agents/README.md) | Conversational AI agents on WhatsApp using Groq for fast LLM inference. | [agent-demo](examples/agent-demo/README.md) |
 
-Installation and usage details are included in each package's README. I also included [example demos](examples) for testing each out and a [spec](spec.md) for a more comprehensive breakdown of the primitives.
+Installation and usage details are included in each package's README. I also included a [spec](spec.md) for a more comprehensive breakdown of the primitives.
